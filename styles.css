@@ -2,9 +2,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    margin: 100px;
-    background-color:white
+    height: 100px; 
+    margin: 200px; 
+    background-color: white;
 }
 
 .card {
@@ -14,7 +14,7 @@ body {
     border-radius: 15px;
     border: 2px solid black;
     position: relative;
-    font-family: 'Georgia', serif;
+    font-family: 'Georgia';
 }
 
 .corner {
@@ -28,30 +28,29 @@ body {
 }
 
 .top-left {
-    top: 20px;
-    left: 5px;
+    top: 25px; 
+    left: 7px; 
 }
 
 .bottom-right {
-    position: unset;
-    bottom: 10px;
+    bottom: 20px;
     right: 10px;
     transform: rotate(180deg);
 }
 
 .letter {
-    font-size: 24px;
+    font-size: 30px;
     line-height: 24px;
 }
 
-.small-spade {
-    font-size: 30px;
+.espada-pequena {
+    font-size: 40px;
 }
 
-.center-spade {
+.espada-centro {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 90px;
+    font-size: 90px; 
 }
